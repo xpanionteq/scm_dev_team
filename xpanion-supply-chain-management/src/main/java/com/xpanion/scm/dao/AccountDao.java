@@ -17,3 +17,6 @@ public interface AccountDao {
 		 int deleteAccount(int accountId, char activeStateIndicator, int createUserId);// delete
 
 }
+
+
+//Ajay
