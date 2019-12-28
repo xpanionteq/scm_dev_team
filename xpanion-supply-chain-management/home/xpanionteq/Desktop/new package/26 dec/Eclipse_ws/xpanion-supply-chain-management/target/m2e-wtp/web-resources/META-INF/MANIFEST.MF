@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: xpanionteq
+Build-Jdk: 11.0.3
+Implementation-Title: xpanion-supply-chain-management
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.xpanion
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/xpanion-supply-chain-management
+Created-By: Maven Integration for Eclipse
+

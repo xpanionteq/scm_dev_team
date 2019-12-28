@@ -1,0 +1,44 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-16eb145eb37-14ff14078ec4482": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL - xpanion_student_management_system_dev",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "192.168.0.12",
+				"port": "5432",
+				"database": "xpanion_student_management_system_dev_db",
+				"url": "jdbc:postgresql://192.168.0.12:5432/xpanion_student_management_system_dev_db",
+				"home": "postgresql-x64-12",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false"
+				}
+			}
+		},
+		"postgres-jdbc-16ed4ec10e1-7c0843054cebe831": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL - xpanion_supply_chain_management_syste",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "192.168.0.12",
+				"port": "5432",
+				"database": "xpanion_supply_chain_management_system_dev_db",
+				"url": "jdbc:postgresql://192.168.0.12:5432/xpanion_supply_chain_management_system_dev_db",
+				"home": "postgresql-x64-12",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false"
+				},
+				"handlers": {}
+			}
+		}
+	}
+}

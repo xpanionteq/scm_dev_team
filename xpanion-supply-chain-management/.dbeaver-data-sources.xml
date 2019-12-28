@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="postgres-jdbc-16b2b836751-3796757e155653db" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - xpanion_supply_chain_management_syste" save-password="true" read-only="false">
+		<connection host="192.168.0.8" port="5432" server="" database="xpanion_supply_chain_management_system_dev_db" url="jdbc:postgresql://192.168.0.8:5432/xpanion_supply_chain_management_system_dev_db" user="postgres" password="EgALKU8jpQ==" type="dev">
+			<property name="connectTimeout" value="40"/>
+			<property name="loginTimeout" value="20"/>
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-16bcfdbfacf-1aa3fecb6e50d18b" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - xpanion_pump_management_system_dev_db" save-password="true" read-only="false">
+		<connection host="192.168.0.8" port="5432" server="" database="xpanion_pump_management_system_dev_db" url="jdbc:postgresql://192.168.0.8:5432/xpanion_pump_management_system_dev_db" user="postgres" password="EgALKU8jpQ==" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-16c8ff0e911-7b85bb1d3b3f3a1d" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - xpanion_student_management_system_dev" save-password="true" read-only="false">
+		<connection host="192.168.0.8" port="5432" server="" database="xpanion_student_management_system_dev_db" url="jdbc:postgresql://192.168.0.8:5432/xpanion_student_management_system_dev_db" user="postgres" password="EgALKU8jpQ==" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+			<bootstrap autocommit="false"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>
