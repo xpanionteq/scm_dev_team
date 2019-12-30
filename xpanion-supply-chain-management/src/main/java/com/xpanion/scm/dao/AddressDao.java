@@ -12,3 +12,5 @@ import com.xpanion.scm.model.AddressModel;
 public interface AddressDao {
 	public List<AddressModel> getSingleCustomerAddress(int contactId);
 }
+
+//Ajay
