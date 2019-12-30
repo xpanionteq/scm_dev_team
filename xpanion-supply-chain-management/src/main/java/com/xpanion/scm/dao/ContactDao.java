@@ -14,7 +14,7 @@ import com.xpanion.scm.model.HomeModel;
 public interface ContactDao {
 	int saveUpdateContacts(int contactId, String contactName, String companyName, String landNumber,
 			String mobileNumber, String email, int contactTypeId, String gstIdentificationNumber,int createUserId, char activeStatus,
-			List<AddressModel> addressDetails);
+			List<AddressModel> addressDetails,int contactAddressId);
 
     public List<ContactModel> getContactTypes();
 	public List<ContactModel> getPrimaryContactDetails(int contactId);
@@ -32,7 +32,7 @@ public interface ContactDao {
 	public List<ContactModel> getvendors();
 	 
     
-   int deletecontact(int contactId,int createUserId,char activeStatus);
+  // int deletecontact(int contactId,int createUserId,char activeStatus);
     
 	
     
